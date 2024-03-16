@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const API_URL = '/api/users'
-const login_API = '/api/users/login'
+const API_URL = 'https://supportdeskbackend-dubt.onrender.com/api/users'
+const login_API = 'https://supportdeskbackend-dubt.onrender.com/api/users/login'
 
 // Register a new user
 const register = async (userData) => {
